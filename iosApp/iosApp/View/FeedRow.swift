@@ -24,7 +24,6 @@ struct FeedRow: View {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-    
                 }
                 .frame(width: Constants.imageWidth, height: Constants.imageWidth)
                 .clipped()
